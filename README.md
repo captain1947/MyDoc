@@ -1,7 +1,7 @@
-## MyDoc
+# MyDoc
 A simple documentation reader for python made with PySimpleGUI.  
 
-# Installation  
+## Installation  
 * Step 1:
 	```
 	pip install pysimplegui
