@@ -1,10 +1,11 @@
-name: Build GUI exe with Pyinstaller
-
+name: Create debug executable for windows.
 on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
-    inputs:
-      tags:
-        description: 'test build tags'
+
 jobs:
   build:
 
@@ -20,5 +21,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: my-app
+        name: MyDoc
         path: dist/windows
