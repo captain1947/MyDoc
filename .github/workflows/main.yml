@@ -1,5 +1,5 @@
 
-name: Package Application with Pyinstaller
+name: Create debug executable for windows.
 
 on:
   push:
@@ -23,5 +23,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: name-of-artifact
+        name: mydoc_debug
         path: src/dist/windows
