@@ -6,7 +6,7 @@ A simple documentation reader for python made with PySimpleGUI.
 	```
 	pip install pysimplegui
 	```
-* Step 2:
+* Step 2:  
 	Clone the repository or download as zip.
-* Step 3:
+* Step 3:  
 	Run main.py
